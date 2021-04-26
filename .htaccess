@@ -1,0 +1,9 @@
+  RewriteEngine On
+RewriteBase /
+RewriteCond %{QUERY_STRING} ^(.*)$
+
+RewriteRule ^listinfo-([0-9]+)-([0-9]+).html?(.*?)$ /e/action/ListInfo/index\.php\?classid=$1&page=$2
+RewriteRule ^showinfo-([0-9]+)-([0-9]+)-([0-9]+).html?(.*?)$ /e/action/ShowInfo\.php\?classid=$1&id=$2&page=$3
+RewriteRule ^search-([0-9]+)-([0-9]+).html?(.*?)$ /e/search/result/index\.php\?page=$1&searchid=$2
+RewriteRule ^tags-(.+?)-([0-9]+).html$ /e/tags/index.php?tagname=$1&page=$2 [NC,L]
+RewriteRule ^tags-(.*)-(.*)$ e/tags/index.php?tagid=$1&page=$2
