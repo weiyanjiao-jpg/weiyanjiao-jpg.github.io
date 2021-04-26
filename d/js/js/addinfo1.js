@@ -1,1 +1,0 @@
-document.write("<option value=\'1\' style=\'background:#99C4E3\'>|-故事汇</option>");
