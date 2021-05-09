@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动态文字</title>
+    <style type="text/css">
+        .cont{
+            width: 700px;
+            height: 500px;
+            margin: 60px auto;
+            font-size: 32px;
+            position: relative;
+        }
+        video{
+            position: absolute;
+        }
+        .fast{
+            padding-top: 60px;
+            color: rebeccapurple;
+            font: normal 26px/20px "";
+        }
+        .left{
+            color: #51bcff;
+            font:normal 26px/20px "";
+        }
+    </style>
+</head>
+<body>
+<div class="cont">
+    <video src ="MP4.mp4" width="700" height="500" autoplay loop controls></video>
+    <marquee class="fast" direction="right" behavior="scroll" scrollamount="20"> 加油，我要成为python大神
+    </marquee>
+    <marquee class="left" direction="left" behavir="alternate" scrollamount="10">视频通俗易懂</marquee>
+
+</div>
+</body>
+</html>
