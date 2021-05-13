@@ -1,0 +1,61 @@
+.img{
+    float:left;
+}
+form{
+    width: 450px;
+    float: left;
+}
+form>:first-child~*{
+    margin-left: 100px;
+}
+.img img{
+    height: 517px;
+}
+.text,.sure,.sel{
+    margin-top: 10px;
+    display: block;
+    font-size: 18px;
+}
+.txt input,.sure input{
+    width: 250px;
+    height: 35px;
+
+}
+.sure{
+    margin-left: -35px;
+
+}
+.cont>form>div{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.cont>form>div>label{
+    margin-left: 20px;
+}
+.birth select{
+    padding: 5px 5px 5px 0px;
+}
+.addr{
+    margin-left: -18px;
+}
+.addr select{
+    padding: 5px 23px 5px 0px;
+}
+p{
+    color: #909090;
+    font-size: 12px;
+    margin: 10px 0 0 50px;
+}
+[type="button"]{
+    background: #00ff00;
+    color: #fff;
+    border: none;
+    margin: 20px 50px;
+    font-size: 24px;
+    padding: 10px 78px;
+}
+.sel input{
+    width: 15px;
+    height: 15px;
+    margin: auto 10px  auto 0;
+}
