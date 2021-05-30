@@ -1,0 +1,21 @@
+ .cont{
+                          margin:0 auto;
+     padding-top: 210px;
+                          with:1050px;
+                          backgroundcolor:#0ff
+                      }
+[type="text"]{
+    margin-left:10px;
+    height:30px;
+    width:230px;
+}
+label{
+    display:block;
+    margin:10px 70px;
+}
+.cont>div>:first-child{
+    color:white;
+    height:40px;
+    line-height:40px;
+    padding-left:50px;
+    background:#6dc5ef;}
