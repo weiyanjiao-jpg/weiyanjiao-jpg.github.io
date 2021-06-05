@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>指针经过特效</title>
+   <style>
+    *{
+    margin:0;
+    padding:0;}
+    .cont{
+        width: 1050px;
+        height: 650px;
+        padding-top: 340px;
+        margin: 0 auto;
+        border: 1px solid #dbdbdb;
+        text-align: center;
+        background: url("bg1.jpg") no-repeat #f0f0f0;
+    }
+       dl{
+           width: 390px;
+           height: 200px;
+           float: left;
+           padding: 20px 35px;
+           background: #fff;
+           margin: 15px;
+       }
+       dd,dt{
+           float: left;
+       }
+       dt img{
+           margin-top: 15px;
+           width: 135px;
+       }
+       dt:hover img{
+           transform: translate(20px,0);
+           transition: 1s ease all;
+
+       }
+       dd{
+           width: 220px;
+           margin-left: 30px;
+           text-align: left;
+       }
+       .name{
+           margin: 23px auto 15px;
+       }
+       .book{
+           width: 980px;
+           height: 400px;
+           margin: 0 auto;
+       }
+       .gray{
+           color: rgb(109,109,109);
+       }
+       .red{
+           color: rgb(255,12,42,0.56);
+           font-weight: bold;
+       }
+       .item{
+           height: 25px;
+           font: normal 14px/25px;
+       }
+       .price{
+           margin-top: 20px;
+       }
+       .see{
+           float: right;
+           text-align: center;
+           width: 75px;
+           padding: 7px 10px;
+           border: 1px solid #0c79b1;
+           color: #0c79b1;
+       }
+
+   </style>
+</head>
+<body>
+<div class="cont">
+    <img src="img.jpeg">
+    <div class="book">
+        <dl>
+            <dt>
+                <img src="bg1.jpg">
+            </dt>
+            <dd>
+                <h3 class="name">java学习黄金组合套装</h3>
+                <p class="item">
+                    <span class="gray">出版社：</span><span>吉林大学出版社</span>
+                </p>
+                <p class="item">
+                    <span class="gray">出版时间：</span><span>2017年9月</span>
+                </p>
+                <p class="price">
+                    <span class="gray">图书定价：</span><span class="red">￥209.4</span>
+                </p>
+                <p class="see">查看详解</p>
+            </dd>
+        </dl>
+        <dl>
+            <dt>
+                <img src="bg1.jpg">
+            </dt>
+            <dd>
+                <h3 class="name">玩转C语言程序设计</h3>
+                <p class="item">
+                    <span class="gray">出版社：</span><span>吉林大学出版社</span>
+                </p>
+                <p class="item">
+                    <span class="gray">出版时间：</span><span>2018年7月</span>
+                </p>
+                <p class="price">
+                    <span class="gray">图书定价：</span><span class="red">￥49.8</span>
+                </p>
+                <p class="see">查看详解</p>
+            </dd>
+        </dl>
+            <dl>
+                <dt>
+                    <img src="bg1.jpg">
+                </dt>
+                <dd>
+                    <h3 class="name">pyth从入门到项目实践</h3>
+                    <p class="item">
+                        <span class="gray">出版社：</span><span>吉林大学出版社</span>
+                    </p>
+                    <p class="item">
+                        <span class="gray">出版时间：</span><span>2018年10月</span>
+                    </p>
+                    <p class="price">
+                        <span class="gray">图书定价：</span><span class="red">￥99.8</span>
+                    </p>
+                    <p class="see">查看详解</p>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="bg1.jpg">
+                </dt>
+                <dd>
+                    <h3 class="name">案例学web前端开发</h3>
+                    <p class="item">
+                        <span class="gray">出版社：</span><span>吉林大学出版社</span>
+                    </p>
+                    <p class="item">
+                        <span class="gray">出版时间：</span><span>2018年8月</span>
+                    </p>
+                    <p class="price">
+                        <span class="gray">图书定价：</span><span class="red">￥49.8</span>
+                    </p>
+                    <p class="see">查看详解</p>
+                </dd>
+            </dl>
+    </div>
+</div>
+</body>
+</html>
